@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background-image: url(../Documents/zoo-animals.jpg);
+  background-image: url(zoo-animals.jpg );
   background-position: cover;
 }
 
