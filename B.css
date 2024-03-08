@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url(../Documents/zoo-animals.jpg);
+  background-position: cover;
+}
+
+h1 {
+  text-align: center;
+  
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color:rgb(235, 77, 108);
+  text-size-adjust: 100px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select, input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #2c19d6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

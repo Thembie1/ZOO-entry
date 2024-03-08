@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zoo Entry Form</title>
+  <link rel="stylesheet" type="text/css" href="../Desktop/B.css">
+</head>
+<body>
+  <h1>Zoo Entry Form</h1>
+  <form id="zooForm">
+  
+    <label for="ageGroup">Age Group:</label>
+    <select id="ageGroup" onchange="updatePrice()">
+      <option value="infant">Infant (0-2 years) - Free</option>
+      <option value="kid">Kid (3-12 years) - R100</option>
+      <option value="teenager">Teenager (13-17 years) - R150</option>
+      <option value="adult">Adult (18-59 years) - R200</option>
+      <option value="senior">Senior Citizen (60+ years) - Free</option>
+    </select>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1" onchange="updatePrice()">
+
+    <label for="totalAmount">Total Amount Due:</label>
+    <input type="text" id="totalAmount" readonly>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="../Desktop/C.js"></script>
+</body>
+</html>
